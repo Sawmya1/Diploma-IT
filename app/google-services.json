@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023867367989",
+    "firebase_url": "https://diploitbysawmyathakur.firebaseio.com",
+    "project_id": "diploitbysawmyathakur",
+    "storage_bucket": "diploitbysawmyathakur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023867367989:android:12fba37681312c2135377c",
+        "android_client_info": {
+          "package_name": "com.sawmya.diploitbysawmyathakur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023867367989-0id7bbdvg993kpm87mhnc0fjka70vgo6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sawmya.diploitbysawmyathakur",
+            "certificate_hash": "9fb8062021e5ce7455b817fb9bae254dc5e3df72"
+          }
+        },
+        {
+          "client_id": "1023867367989-8og4jm0983qo6cggvgh9p5mmm8jkagi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAslFZKFQERqyCc3nBcXUKAhYT4eyUfZJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023867367989-8og4jm0983qo6cggvgh9p5mmm8jkagi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

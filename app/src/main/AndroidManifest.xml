@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sawmya.diploitbysawmyathakur">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3393048343814755~6918324735"/>
+
+        <activity android:name="com.sawmya.diploitbysawmyathakur.nisutqb" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.niscurri" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.nisnotes" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.nisvideo" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.mgtut" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.mgtcurri" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.mgtnotes" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.mgtvideo" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.wmnutsol" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.wmnutqb" />
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.wmnut"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.listwmn" />
+        </activity>
+        <activity android:name="com.sawmya.diploitbysawmyathakur.wmncurri" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.wmnpaper" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.wmnnotes" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.wmnvideo" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.etiut" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.eticurri" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.etinotes" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.etivideo" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.androidutsol" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.androidutqb" />
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.androidut"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.listandroid" />
+        </activity>
+        <activity android:name="com.sawmya.diploitbysawmyathakur.androidcurri" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.androidpaper" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.androidnotes" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.androidvideo" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.phputsol" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.phputqb" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.phpprog" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.phppaper" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.phpcurri" />
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.phput"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.listphp" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.phpnotes"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.listphp" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.about"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.MainActivity" />
+        </activity>
+        <activity android:name="com.sawmya.diploitbysawmyathakur.phpvideo" />
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.listandroid"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.listnis"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.listmanagement"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.listeti"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.listwmn"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.listphp"
+            android:theme="@style/AppMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sawmya.diploitbysawmyathakur.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.firstpage"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.MainActivity"
+            android:theme="@style/AppMain" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.Login" />
+        <activity android:name="com.sawmya.diploitbysawmyathakur.Register" />
+        <activity
+            android:name="com.sawmya.diploitbysawmyathakur.confirmuser"
+            android:label="@string/confirm" />
+    </application>
+
+</manifest>
